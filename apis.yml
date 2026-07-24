@@ -1,8 +1,27 @@
 aid: baton-systems
 name: Baton Systems
-description: 'Baton Systems is a company surfaced as a portfolio company of trinity-ventures and added
-  to the API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Baton Systems is a post-trade settlement and payments technology provider
+  founded in 2016, headquartered in Silicon Valley with offices in London, New York,
+  and Chennai. Its CORE platform (Core-FX, Core-Payments, Core-Liquidity, and Core-Collateral)
+  uses distributed ledger technology (DLT) and payment-versus-payment (PvP) settlement
+  to orchestrate real-time FX settlement, intraday liquidity management, collateral
+  optimization, and post-trade payment control for global banks and financial institutions.
+  Baton operates a live FX PvP settlement service and processes roughly USD 30 billion
+  daily for seven of the nine largest Western global systemically important banks,
+  having settled trillions in aggregate value. Data flows integrate over APIs and
+  standard financial formats including ISO 20022, SWIFT MT, FIXML, and XML.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://batonsystems.com/wp-content/uploads/2025/10/Baton_Master-Logo-01-scaled.png
 url: https://raw.githubusercontent.com/api-evangelist/baton-systems/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +31,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Fintech
+- Post-Trade
+- Settlement
+- Payments
+- FX
+- Liquidity
+- Collateral
+- DLT
+- Banking
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +50,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/baton-systems-domain-security.yml
 - type: Website
   url: https://www.batonsystems.com
+- type: Blog
+  url: https://batonsystems.com/insights/blog-posts/
+- type: BlogRSS
+  url: https://batonsystems.com/feed/
+- type: Support
+  url: https://batonsystems.com/contact/
+- type: TermsOfService
+  url: https://batonsystems.com/privacy-policy-terms/#terms
+- type: PrivacyPolicy
+  url: https://batonsystems.com/privacy-policy-terms/#privacy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
