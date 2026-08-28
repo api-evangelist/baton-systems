@@ -10,6 +10,17 @@ description: 'Baton Systems is a post-trade settlement and payments technology p
   daily for seven of the nine largest Western global systemically important banks,
   having settled trillions in aggregate value. Data flows integrate over APIs and
   standard financial formats including ISO 20022, SWIFT MT, FIXML, and XML.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
